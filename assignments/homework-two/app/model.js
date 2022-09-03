@@ -1,6 +1,6 @@
 //variable for weather api key and url
 var key = "c323d788d20342a7b4c202240222908";
-var baseURL = "http://api.weatherapi.com/v1/";
+var baseURL = "https://api.weatherapi.com/v1/";
 
 //Retreive current date before retreiving weather stats
 function getCurrentDate() {
