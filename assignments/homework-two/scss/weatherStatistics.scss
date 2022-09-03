@@ -1,0 +1,25 @@
+.weatherStatistics {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+    #uvIndex, #windMph, #feelsLikef, #windDirection, #windDegree, #gustMph, #humidity, #precipIn, #pressure, #visMiles {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 145px;
+        width: 117px;
+        background-color: #1d71f2;
+        margin: 10px;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        padding: 10px;
+        text-align: center;
+    }
+
+}

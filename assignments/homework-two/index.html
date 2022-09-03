@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Two</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="app">
+        <div class="form">
+            <input id="gwInput" type="text" placeholder="Enter Location">
+            <button id="gw">Get Weather</button>
+            <div id="currentDay"></div>
+            <div id="lastUpdated"></div>
+            <a href="#" id="signUp">Sign up</a>
+            <a href="#" id="logIn">Log In</a>
+        </div>
+        <div id="currentLocation"></div>
+        <div id="currentTime"></div>
+        <div id="currentCondition"></div>
+        <div id="tempF"></div>
+
+        <div class="locationPts">
+            <div id="latitude"></div>
+            <div id="longitude"></div>
+        </div>
+
+        <div class="weatherStatistics">
+
+            <div id="uvIndex"></div>
+            <div id="windMph"></div>
+            <div id="feelsLikef"></div>
+            <div id="windDirection"></div>
+            <div id="windDegree"></div>
+            <div id="gustMph"></div>
+            <div id="humidity"></div>
+            <div id="precipIn"></div>
+            <div id="pressure"></div>
+            <div id="visMiles"></div>
+        </div>
+
+    </div>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+</body>
+</html>

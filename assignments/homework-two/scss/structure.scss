@@ -1,0 +1,20 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+#app {
+    padding: 40px;
+    max-width: 768px;
+    height: fit-content;
+    background: linear-gradient(0deg, #19C3FB, #1C9CF6 40%, #1d71f2);
+    border-radius: 10px;
+    margin: 20px;
+}
