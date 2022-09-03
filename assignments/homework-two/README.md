@@ -1,6 +1,6 @@
 # Homework Assignment Two
 
-Link to Web 4: https://in-info-web4.informatics.iupui.edu/~elrmurph/n423/homework-two/
+Link to Web 4: https://in-info-web4.informatics.iupui.edu/~elrmurph/n423/assignments/homework-two/index.html
 
 The purpose of this assignment:
 
