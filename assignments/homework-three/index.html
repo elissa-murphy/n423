@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 3 | Elissa Murphy</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Form -->
+    <h3>Add a Student:</h3>
+    <label for="name">Name<span>*</span></label>
+    <input type="text" id="name" /> &nbsp;&nbsp;
+
+    <label for="age">Age<span>*&nbsp;&nbsp;&nbsp;</span></label>
+    <input
+      type="number"
+      id="age"
+      pattern="/^-?\d+\.?\d*$/"
+      onkeypress="if(this.value.length == 2) return false;"
+    /><br />
+
+    <label for="phone">Phone<span>*</span></label>
+    <input
+      type="number"
+      id="phone"
+      pattern="/^-?\d+\.?\d*$/"
+      onkeypress="if(this.value.length == 10) return false;"
+    />
+    &nbsp;&nbsp;
+
+    <label for="email">Email<span>*</span></label>
+    <input type="text" id="email" /><br />
+
+    <label for="classes">Class<span>*&nbsp;</span> </label>
+    <input type="text" id="classes" /> <br />
+
+    <input type="submit" id="submit" value="Add Student" />
+
+    <button id="getStudents">Get All Students</button>
+
+    <!-- Display Students -->
+    <div id="displayStudents"></div>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ padding: 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+input#name, input#age, input#phone, input#email {
+    width: 200px;
+}
+
+input#classes {
+    width: 476px;
+}
+
+input, button {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+input#submit, button {
+    font-weight: 600;
+}
+
+span {
+    color: red;
+}
+
+p {
+    padding: 10px;
+}
+
+#displayStudents {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 656px) {
+    label, input {
+        display: block;
+    }
+
+    input#classes {
+        width: 200px;
+    }
+}
